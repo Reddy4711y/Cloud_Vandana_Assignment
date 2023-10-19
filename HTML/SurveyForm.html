@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./SurveyForm.css" />
+  </head>
+  <body>
+    <h1>Customer Survey Form</h1>
+
+    <form id="survey-form">
+      <div class="firstname">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" required />
+      </div>
+      <div class="lastname">
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" required />
+      </div>
+
+      <div class="birth">
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" required />
+      </div>
+
+      <div class="country">
+        <label for="country">Country:</label>
+        <select id="country" required>
+          <option value="">Select Country</option>
+          <option value="usa">India</option>
+          <option value="canada">Canada</option>
+          <option value="canada">Russia</option>
+          <option value="canada">Pakistan</option>
+          <option value="canada">USA</option>
+          <option value="canada">Other</option>
+        </select>
+      </div>
+      <div class="gender">
+        <label>Gender:</label>
+        <label><input type="checkbox" name="gender" value="male" /> Male</label>
+        <label
+          ><input type="checkbox" name="gender" value="female" /> Female</label
+        >
+        <label
+          ><input type="checkbox" name="gender" value="other" /> Other</label
+        >
+      </div>
+      <div class="profession">
+        <label for="profession">Profession:</label>
+        <input type="text" id="profession" required />
+      </div>
+
+      <div class="email">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+      </div>
+
+      <div class="mobile">
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" required />
+      </div>
+      <div class="button">
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    <p class="copy">
+      &copy;2023 Customer Survey Form .All Rights Reserved | Design By Hemanth
+    </p>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: black;
+}
+
+input[type="text"] {
+  width: 75%;
+  margin: 5px;
+  padding: 2px;
+  background-color: white;
+  border: none;
+}
+
+#result {
+  text-align: right;
+}
+.head {
+  display: flex;
+}
+button {
+  width: 25%;
+  height: 70px;
+  font-size: 18px;
+  margin: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.operator {
+  background-color: gray;
+}
+.ac {
+  background-color: lightgreen;
+}
+.first {
+  display: flex;
+}
